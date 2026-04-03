@@ -4,6 +4,14 @@
      SPDX-License-Identifier: Apache-2.0
 -->
 <displayConfiguration>
+    <screenBrightnessRampFastDecrease>0.7</screenBrightnessRampFastDecrease>
+
+    <screenBrightnessRampFastIncrease>0.7</screenBrightnessRampFastIncrease>
+
+    <screenBrightnessRampSlowDecrease>0.05</screenBrightnessRampSlowDecrease>
+
+    <screenBrightnessRampSlowIncrease>0.05</screenBrightnessRampSlowIncrease>
+
     <screenBrightnessMap>
         <point>
             <value>0.0000</value>
@@ -80,6 +88,8 @@
         <transitionPoint>0.84074</transitionPoint>
         <!-- Minimum lux needed to enter high brightness mode. -->
         <minimumLux>7000</minimumLux>
+        <thermalStatusLimit>light</thermalStatusLimit>
+        <allowDefaultBrightnessOverride>true</allowDefaultBrightnessOverride>
         <timing>
             <!-- Window in which we restrict HBM. -->
             <timeWindowSecs>1800</timeWindowSecs>
