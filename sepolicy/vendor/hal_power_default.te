@@ -1,0 +1,3 @@
+# Allow libperfmgr to write CPU frequency scaling sysfs nodes
+allow hal_power_default sysfs_devices_system_cpu:file { open read write getattr };
+allow hal_power_default sysfs_devices_system_cpu:dir { open read search };
