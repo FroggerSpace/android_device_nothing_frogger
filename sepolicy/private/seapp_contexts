@@ -1,5 +1,8 @@
 # Bluetooth
 user=bluetooth seinfo=default name=com.android.bluetooth domain=bluetooth type=bluetooth_data_file levelFrom=all isPrivApp=true
 
+# Device Extras
+user=system seinfo=platform isPrivApp=true name=org.neoteric.device.DeviceExtras domain=device_extras type=system_app_data_file levelFrom=all
+
 # Glyph
 user=system seinfo=platform isPrivApp=true name=co.aospa.glyph domain=glyph_app type=system_app_data_file levelFrom=all

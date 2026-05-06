@@ -1,0 +1,3 @@
+allow device_extras vendor_sysfs_battery_supply:dir search;
+allow device_extras vendor_sysfs_battery_supply:file r_file_perms;
+allow device_extras vendor_proc_power_supply:{ file lnk_file } rw_file_perms;
