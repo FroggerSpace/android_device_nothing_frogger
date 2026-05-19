@@ -233,7 +233,7 @@
               "1708800",
               "1804800"
             ],
-            "DefaultIndex": "0",
+            "DefaultIndex": 0,
             "ResetOnInit": true
         }
     ],
