@@ -3,10 +3,10 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
-DEVICE_PATH := device/nothing/asteroids
+DEVICE_PATH := device/nothing/frogger
 
 include build/make/target/board/BoardConfigMainlineCommon.mk
-include vendor/nothing/asteroids/BoardConfigVendor.mk
+include vendor/nothing/frogger/BoardConfigVendor.mk
 
 BUILD_BROKEN_DUP_RULES := true
 

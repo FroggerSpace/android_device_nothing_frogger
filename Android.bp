@@ -5,7 +5,11 @@
 
 soong_namespace {
     imports: [
-        "vendor/nothing/asteroids",
+	"vendor/nothing/frogger",
+        "hardware/google/interfaces",
+        "hardware/google/pixel",
+        "hardware/lineage/interfaces/power-libperfmgr",
+        "hardware/qcom-caf/common/libqti-perfd-client",
     ],
 }
 
