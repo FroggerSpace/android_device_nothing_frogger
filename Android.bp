@@ -9,7 +9,7 @@ soong_namespace {
         "hardware/google/pixel",
         "hardware/lineage/interfaces/power-libperfmgr",
         "hardware/qcom-caf/common/libqti-perfd-client",
-        "vendor/nothing/asteroids",
+        "vendor/nothing/frogger",
     ],
 }
 
