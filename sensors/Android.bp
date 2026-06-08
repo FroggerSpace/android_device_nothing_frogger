@@ -3,7 +3,7 @@
 // SPDX-License-Identifier: Apache-2.0
 //
 cc_binary {
-    name: "android.hardware.sensors-service.asteroids-multihal",
+    name: "android.hardware.sensors-service.frogger-multihal",
     vendor: true,
     relative_install_path: "hw",
     srcs: [
@@ -15,8 +15,8 @@ cc_binary {
         "android.hardware.sensors@2.X-multihal.header",
         "android.hardware.sensors@2.X-shared-utils",
     ],
-    init_rc: ["android.hardware.sensors-service.asteroids-multihal.rc"],
-    vintf_fragments: ["android.hardware.sensors.asteroids-multihal.xml"],
+    init_rc: ["android.hardware.sensors-service.frogger-multihal.rc"],
+    vintf_fragments: ["android.hardware.sensors.frogger-multihal.xml"],
     shared_libs: [
         "android.hardware.sensors@2.0-ScopedWakelock",
         "android.hardware.sensors@2.0",
@@ -40,10 +40,10 @@ cc_binary {
 }
 
 cc_library_shared {
-    name: "sensors.asteroids",
+    name: "sensors.frogger",
     defaults: ["hidl_defaults"],
-    init_rc: ["sensors.asteroids.rc"],
-    required: ["asteroids_hals.conf"],
+    init_rc: ["sensors.frogger.rc"],
+    required: ["frogger_hals.conf"],
     srcs: [
         "Sensor.cpp",
         "SensorsSubHal.cpp",
@@ -66,13 +66,13 @@ cc_library_shared {
         "android.hardware.sensors@2.X-multihal",
     ],
     cflags: [
-        "-DLOG_TAG=\"sensors.asteroids\"",
+        "-DLOG_TAG=\"sensors.frogger\"",
     ],
     device_specific: true,
 }
 
 prebuilt_etc {
-    name: "asteroids_hals.conf",
+    name: "frogger_hals.conf",
     filename: "hals.conf",
     src: "hals.conf",
     sub_dir: "sensors",

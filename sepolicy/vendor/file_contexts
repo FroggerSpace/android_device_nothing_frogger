@@ -26,7 +26,7 @@
 /dev/led_strips    u:object_r:led_device:s0
 
 # NFC
-/odm/bin/init\.asteroids\.nfc\.sh                    u:object_r:vendor_qti_init_shell_exec:s0
+/odm/bin/init\.frogger\.nfc\.sh                    u:object_r:vendor_qti_init_shell_exec:s0
 /vendor/bin/hw/android\.hardware\.nfc-service\.st    u:object_r:hal_nfc_default_exec:s0
 
 # NTF
@@ -42,10 +42,10 @@
 
 # Sensors
 /vendor/bin/hw/vendor\.noth\.hardware\.sensor\.sensor_extension-service    u:object_r:hal_sensors_default_exec:s0
-/vendor/bin/hw/android\.hardware\.sensors-service\.asteroids-multihal             u:object_r:hal_sensors_default_exec:s0
+/vendor/bin/hw/android\.hardware\.sensors-service\.frogger-multihal             u:object_r:hal_sensors_default_exec:s0
 
 /dev/aac_richtap                                                           u:object_r:aac_richtap_device:s0
-/vendor/bin/hw/android\.hardware\.vibrator\.service\.asteroids      u:object_r:hal_vibrator_default_exec:s0
+/vendor/bin/hw/android\.hardware\.vibrator\.service\.frogger      u:object_r:hal_vibrator_default_exec:s0
 
 # Wakeup
 /sys/devices/platform/hypervisor/hypervisor:qcom,resource-manager-rpc@[0-9a-f]+/wakeup(/.*)?    u:object_r:sysfs_wakeup:s0

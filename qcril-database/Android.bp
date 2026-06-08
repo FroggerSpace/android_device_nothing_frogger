@@ -14,8 +14,8 @@ genrule {
     name: "qcril_config_database",
     enabled: true,
     srcs: [
-        "//vendor/nothing/asteroids:proprietary_rildb_config_sql_files",
-        "//vendor/nothing/asteroids:proprietary_rildb_other_sql_files",
+        "//vendor/nothing/frogger:proprietary_rildb_config_sql_files",
+        "//vendor/nothing/frogger:proprietary_rildb_other_sql_files",
         ":rildb_config_sql_files",
     ],
     tools: [

@@ -1,0 +1,22 @@
+#
+# SPDX-FileCopyrightText: 2025 The LineageOS Project
+# SPDX-License-Identifier: Apache-2.0
+#
+
+on early-init
+    setprop ro.boot.product.hardware.sku ${ro.boot.hardware.sku}
+
+on fs && property:ro.boot.pbid=Base
+    mount overlay overlay /vendor/etc/camera lowerdir=/vendor/etc/camera:/odm/overlayfs_origin/base/etc/camera,context=u:object_r:vendor_configs_file:s0
+
+    setprop vendor.usb.product_string "Nothing Phone (4a)"
+
+on late-fs && property:ro.boot.hardware.sku=JPN
+    start gto_secure_element_aidl_service
+
+service gto_secure_element_aidl_service /vendor/bin/hw/android.hardware.secure_element-service.thales
+    override
+    class hal
+    user secure_element
+    group secure_element nfc
+    disabled

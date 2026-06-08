@@ -1,4 +1,0 @@
-allow glyph_app vendor_sysfs_battery_supply:dir search;
-allow glyph_app vendor_sysfs_battery_supply:file { read open getattr };
-allow glyph_app sysfs_leds:file { read open getattr };
-allow glyph_app sysfs_leds:dir search;
