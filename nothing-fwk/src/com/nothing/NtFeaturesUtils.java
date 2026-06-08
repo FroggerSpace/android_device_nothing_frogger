@@ -19,7 +19,6 @@ public class NtFeaturesUtils {
         final String fullProp = SystemProperties.get("ro.vendor.nothing.feature.base", "0");
         final String productDiffProp = SystemProperties.get("ro.vendor.nothing.feature.diff.product." + Build.PRODUCT, "0");
         final String deviceDiffProp = SystemProperties.get("ro.vendor.nothing.feature.diff.device." + Build.DEVICE, "0");
-        final String plusDiffProp = SystemProperties.get("ro.vendor.nothing.feature.diff.plus." + Build.DEVICE, "0");
 
         int bitsetSize = maxLength(replace(fullProp),replace(productDiffProp),replace(deviceDiffProp)) * 4;
 
@@ -28,7 +27,6 @@ public class NtFeaturesUtils {
         base(new BigInteger(replace(fullProp), 16));
         change(new BigInteger(replace(productDiffProp), 16));
         change(new BigInteger(replace(deviceDiffProp), 16));
-        setPro(plusDiffProp);
     }
 
     public static boolean isSupport(int... features) {
@@ -70,12 +68,6 @@ public class NtFeaturesUtils {
             return "";
         }
         return str.replace("0x", "").replace("L", "");
-    }
-
-    private static void setPro(String str) {
-        if ("pro".equalsIgnoreCase(SystemProperties.get("ro.boot.pbid", "base"))) {
-            change(new BigInteger(replace(str), 16));
-        }
     }
 
     private static int maxLength(String... strs) {
