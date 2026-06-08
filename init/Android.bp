@@ -17,15 +17,15 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "init.asteroids.hw.rc",
-    src: "init.asteroids.hw.rc",
+    name: "init.frogger.hw.rc",
+    src: "init.frogger.hw.rc",
     sub_dir: "init",
     device_specific: true,
 }
 
 prebuilt_etc {
-    name: "init.asteroids.rc",
-    src: "init.asteroids.rc",
+    name: "init.frogger.rc",
+    src: "init.frogger.rc",
     sub_dir: "init",
     device_specific: true,
 }
@@ -52,9 +52,9 @@ prebuilt_etc {
 }
 
 prebuilt_etc {
-    name: "ueventd.asteroids.rc",
+    name: "ueventd.frogger.rc",
     filename: "ueventd.rc",
-    src: "ueventd.asteroids.rc",
+    src: "ueventd.frogger.rc",
     device_specific: true,
 }
 
@@ -66,8 +66,8 @@ prebuilt_etc {
 }
 
 sh_binary {
-    name: "init.asteroids.nfc.sh",
-    src: "init.asteroids.nfc.sh",
+    name: "init.frogger.nfc.sh",
+    src: "init.frogger.nfc.sh",
     device_specific: true,
 }
 

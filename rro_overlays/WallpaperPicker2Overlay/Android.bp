@@ -4,13 +4,13 @@
 //
 
 runtime_resource_overlay {
-    name: "AsteroidsWallpaperPicker2Overlay",
+    name: "FroggerWallpaperPicker2Overlay",
     product_specific: true,
     aaptflags: ["--keep-raw-values"],
 }
 
 runtime_resource_overlay {
-    name: "AsteroidsWallpaperPicker2PixelOverlay",
+    name: "FroggerWallpaperPicker2PixelOverlay",
     product_specific: true,
     aaptflags: ["--keep-raw-values"],
     manifest: "AndroidManifest_Pixel.xml",
