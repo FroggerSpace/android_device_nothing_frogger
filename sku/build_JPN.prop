@@ -1,6 +1,6 @@
-ro.odm.build.fingerprint=Nothing/AsteroidsJPN/Asteroids:14/UKQ1.250612.001/2604141749:user/release-keys
-ro.vendor.build.fingerprint=Nothing/AsteroidsJPN/Asteroids:14/UKQ1.250612.001/2604141749:user/release-keys
-ro.product.odm.name=AsteroidsJPN
-ro.product.vendor.name=AsteroidsJPN
-ro.product.odm.model=A059
-ro.vendor.nothing.feature.diff.product.AsteroidsJPN=0x100000120000000000000000000000L
+ro.odm.build.fingerprint=Nothing/FroggerJPN/Frogger:14/UKQ1.250915.001/2603091830:user/release-keys
+ro.vendor.build.fingerprint=Nothing/FroggerJPN/Frogger:14/UKQ1.250915.001/2603091830:user/release-keys
+ro.product.odm.name=FroggerJPN
+ro.product.vendor.name=FroggerJPN
+ro.product.odm.model=A069
+ro.vendor.nothing.feature.diff.product.FroggerJPN=0x100000120000000000000000000000L

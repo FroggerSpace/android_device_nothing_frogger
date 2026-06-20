@@ -1,6 +1,6 @@
-ro.odm.build.fingerprint=Nothing/AsteroidsTUR/Asteroids:14/UKQ1.250612.001/2604141749:user/release-keys
-ro.vendor.build.fingerprint=Nothing/AsteroidsTUR/Asteroids:14/UKQ1.250612.001/2604141749:user/release-keys
-ro.product.odm.name=AsteroidsTUR
-ro.product.vendor.name=AsteroidsTUR
-ro.product.odm.model=A059
-ro.vendor.nothing.feature.diff.product.AsteroidsTUR=0x20000000000000000000000000L
+ro.odm.build.fingerprint=Nothing/FroggerTUR/Frogger:14/UKQ1.250915.001/2603091830:user/release-keys
+ro.vendor.build.fingerprint=Nothing/FroggerTUR/Frogger:14/UKQ1.250915.001/2603091830:user/release-keys
+ro.product.odm.name=FroggerTUR
+ro.product.vendor.name=FroggerTUR
+ro.product.odm.model=A069
+ro.vendor.nothing.feature.diff.product.FroggerTUR=0x20000000000000000000000000L

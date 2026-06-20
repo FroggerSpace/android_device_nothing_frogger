@@ -18,8 +18,8 @@ PRODUCT_NAME := lineage_frogger
 PRODUCT_GMS_CLIENTID_BASE := android-nothing
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="qssi_64-user 16 BQ2A.250721.001-BP2A.250605.031.A3 2604141749 release-keys" \
-    BuildFingerprint=Nothing/Asteroids/Asteroids:14/UKQ1.250612.001/2604141749:user/release-keys \
+    BuildDesc="qssi_64-user 16 BQ2A.250913.001-BP2A.250605.031.A3 2603091830 release-keys" \
+    BuildFingerprint=Nothing/Frogger/Frogger:14/UKQ1.250915.001/2603091830:user/release-keys \
     DeviceName=Frogger \
     DeviceProduct=Frogger \
     SystemDevice=Frogger \
