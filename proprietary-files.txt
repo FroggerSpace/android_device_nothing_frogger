@@ -1645,7 +1645,6 @@ system_ext/etc/sltntc/sltntc_SM7635.conf
 vendor/bin/thermal-engine-v2
 vendor/etc/init/init_thermal-engine-v2.rc
 vendor/etc/sltntc/sltntc.conf
-vendor/etc/thermal-engine.conf
 
 # Time Services
 vendor/app/TimeService/TimeService.apk
