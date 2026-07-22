@@ -132,8 +132,7 @@ BOARD_USES_GENERIC_KERNEL_IMAGE := true
 TARGET_KERNEL_SOURCE := kernel/nothing/sm7635
 TARGET_KERNEL_CONFIG := \
     gki_defconfig \
-    vendor/pineapple_perf.config \
-    vendor/asteroids_perf.config
+    vendor/pineapple_GKI.config
 TARGET_MERGE_DTBS_WILDCARD := *volcano*
 
 # Kernel Modules
@@ -148,8 +147,7 @@ BOOT_KERNEL_MODULES := $(BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD)
 
 TARGET_KERNEL_EXT_MODULE_ROOT := kernel/nothing/sm7635-modules
 TARGET_KERNEL_EXT_MODULES := \
-    noth/fingerprint \
-    noth/touchscreen \
+    qcom/opensource/mmrm-driver \
     qcom/opensource/mm-drivers/hw_fence \
     qcom/opensource/mm-drivers/msm_ext_display \
     qcom/opensource/mm-drivers/sync_fence \
@@ -172,7 +170,10 @@ TARGET_KERNEL_EXT_MODULES := \
     qcom/opensource/graphics-kernel \
     qcom/opensource/wlan/platform \
     qcom/opensource/wlan/qcacld-3.0/.qca6750 \
-    qcom/opensource/bt-kernel
+    qcom/opensource/bt-kernel \
+    qcom/opensource/mm-sys-kernel/ubwcp \
+    qcom/opensource/fingerprint \
+    qcom/opensource/touch-drivers
 
 # Partitions
 ifneq ($(PRODUCT_RO_FILE_SYSTEM), erofs)
