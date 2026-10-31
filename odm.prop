@@ -1,7 +1,6 @@
 # Nt-fwk (Nt feature)
-ro.vendor.nothing.feature.diff.device.Asteroids=0xa80c901acc038d140ad44002d8842080L
-ro.vendor.nothing.feature.diff.plus.Asteroids=0x4000000000000000000000L
-ro.vendor.nothing.feature.base=0x1004458438124a040126b4247b97ffL
+ro.vendor.nothing.feature.diff.device.Frogger=0x2141269afafc0124c028d140ad04002d0842080L
+ro.vendor.nothing.feature.base=0xe24800001004458438124a040106b4247b97ffL
 
 # USB
 ro.usb.uvc.enabled=false
