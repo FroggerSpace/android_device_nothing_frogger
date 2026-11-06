@@ -11,7 +11,6 @@
 /vendor/lib64/libjpege\.so                                          u:object_r:same_process_hal_file:s0
 /vendor/lib64/libtfestriping\.so                                    u:object_r:same_process_hal_file:s0
 /vendor/lib64/libvega_common\.so                                    u:object_r:same_process_hal_file:s0
-/vendor/lib64/libwa_sat\.so                                         u:object_r:same_process_hal_file:s0
 /vendor/lib64/libnoteengine\.so                                     u:object_r:same_process_hal_file:s0
 /vendor/lib64/libmpbase\.so                                         u:object_r:same_process_hal_file:s0
 
