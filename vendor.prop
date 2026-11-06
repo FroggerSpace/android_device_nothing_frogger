@@ -90,7 +90,7 @@ persist.sys.fuse.passthrough.enable=true
 
 # Fingerprint
 ro.vendor.fingerprint.type=udfps_optical
-ro.vendor.fingerprint.sensor_location=540|2176|92
+ro.vendor.fingerprint.sensor_location=612|2485|103
 
 # Graphics
 debug.angle.feature_overrides_enabled=preferLinearFilterForYUV:mapUnspecifiedColorSpaceToPassThrough
