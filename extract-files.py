@@ -90,6 +90,10 @@ blob_fixups: blob_fixups_user_type = {
         .clear_symbol_version('rpcmem_free'),
     'vendor/lib64/libcne.so': blob_fixup()
         .add_needed('libbinder_shim.so'),
+    'vendor/lib64/libarcsoft_triple_sat.old.so': blob_fixup()
+        .fix_soname(),
+    'vendor/lib64/libmorpho_video_stabilizer.so': blob_fixup()
+        .remove_needed('libui.so'),
     'vendor/lib64/libmorpho_RapidEffect.so': blob_fixup()
         .clear_symbol_version('AHardwareBuffer_allocate')
         .clear_symbol_version('AHardwareBuffer_describe')
@@ -109,8 +113,6 @@ blob_fixups: blob_fixups_user_type = {
         .add_needed('libcodec2_shim.so'),
     'vendor/lib64/libperfgluelayer.so': blob_fixup()
         .sig_replace('87 08 00 94', '1F 20 03 D5'),
-    'vendor/lib64/libwa_sat.so': blob_fixup()
-        .binary_regex_replace(b'/system\x00', b'/vendor\x00'),
     (
         'vendor/lib64/libcapiv2uvvendor.so',
         'vendor/lib64/liblistensoundmodel2vendor.so',
@@ -135,7 +137,7 @@ blob_fixups: blob_fixups_user_type = {
 }  # fmt: skip
 
 module = ExtractUtilsModule(
-    'asteroids',
+    'frogger',
     'nothing',
     blob_fixups=blob_fixups,
     lib_fixups=lib_fixups,
