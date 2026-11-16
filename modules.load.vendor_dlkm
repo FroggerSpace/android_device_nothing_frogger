@@ -4,6 +4,7 @@ altmode-glink.ko
 audio_pkt_dlkm.ko
 audio_prm_dlkm.ko
 audpkt_ion_dlkm.ko
+aw882xx_dlkm.ko
 bam_dma.ko
 bcl_soc.ko
 boot_stats.ko
@@ -12,7 +13,6 @@ btpower.ko
 bwmon.ko
 bwprof.ko
 c1dcvs_scmi_v2.ko
-cable_detect.ko
 camcc-volcano.ko
 camera.ko
 cdsp-loader.ko
@@ -80,14 +80,12 @@ health_monitor.ko
 heap_mem_ext_v01.ko
 hung_task_enh.ko
 hvc_gunyah.ko
-hwid.ko
 hwmon.ko
 i2c-msm-geni.ko
 i3c-master-msm-geni.ko
 icnss2.ko
 ipam.ko
 ipanetm.ko
-led_aw20036.ko
 leds-qti-flash.ko
 leds-qti-tri-led.ko
 llcc-qcom.ko
@@ -125,10 +123,15 @@ msm_show_resume_irq.ko
 msm_sysstats.ko
 msm_video.ko
 nb7vpq904m.ko
-nothing_virtual_ntc.ko
+nothing_bootloader_log.ko
+nothing_check_parts.ko
+nothing_disk_usage.ko
+nothing_readahead_trace.ko
+nothing_restart_handler.ko
+nothing_task_info.ko
+nothing_task_meminfo.ko
+nothing_value_check.ko
 nt_display_notifier.ko
-ntfs3.ko
-ois_vdd_ctrl.ko
 panel_event_notifier.ko
 pci-msm-drv.ko
 pcie-pdc.ko
@@ -212,11 +215,10 @@ rmnet_sch.ko
 rmnet_shs.ko
 rmnet_wlan.ko
 rproc_qcom_common.ko
-secure_state.ko
 sg.ko
+sgm38120-regulator.ko
 slim-qcom-ngd-ctrl.ko
 slimbus.ko
-slot_detect.ko
 smcinvoke_dlkm.ko
 smmu_proxy_dlkm.ko
 smp2p.ko
@@ -229,7 +231,6 @@ spi-msm-geni.ko
 spmi-pmic-arb-debug.ko
 sps_drv.ko
 st21nfc.ko
-st54spi.ko
 stm_console.ko
 stm_core.ko
 stm_ftrace.ko
@@ -267,5 +268,6 @@ wcd_core_dlkm.ko
 wcd_usbss_i2c.ko
 wl28681-regulator.ko
 wlan_firmware_service.ko
+wr1241-regulator.ko
 wsa883x_dlkm.ko
 wsa884x_dlkm.ko
