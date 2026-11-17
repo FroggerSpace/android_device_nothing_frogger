@@ -3,6 +3,14 @@
 # SPDX-License-Identifier: Apache-2.0
 #
 
+# Keep unrelated local Graphene integration projects out of this product graph.
+PRODUCT_SOURCE_ROOT_DIRS += \
+    -vendor/spoofer \
+    -external/hardened_malloc \
+    -packages/apps/GmsCompat \
+    -external/GmsCompatConfig \
+    -packages/apps/LogViewer
+
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 $(call inherit-product, vendor/nothing/frogger/frogger-vendor.mk)
 $(call inherit-product-if-exists, hardware/dolby/dolby.mk)
