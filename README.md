@@ -1,27 +1,26 @@
-# Device configuration for Nothing Phone (3a) and Nothing Phone (3a) Pro
+# Device configuration for Nothing Phone (4a)
 
-The Nothing Phone (3a) (codenamed _"Asteroids"_) and the Nothing Phone (3a) Pro (codenamed _"AsteroidsPro"_) are midrange smartphones from Nothing.
+The Nothing Phone (4a) (codenamed _"Frogger"_) is midrange smartphone from Nothing.
 
-They were released in March 2025.
+It was released in March 2026.
 
 ## Device specifications
 
 Basic   | Spec Sheet
 -------:|:-------------------------
-CPU     | Octa-core (1x2.5 GHz Cortex-A720 & 3x2.4 GHz Cortex-A720 & 4x1.8 GHz Cortex-A520)
-Chipset | Qualcomm Snapdragon 7s Gen 3 (SM7635) (4 nm)
+CPU     | Octa-core (1×2.7 GHz Cortex-A720 + 3×2.4 GHz Cortex-A720 + 4×1.8 GHz Cortex-A520)
+Chipset | Qualcomm Snapdragon 7s Gen 4 (SM7635) (4 nm)
 GPU     | Adreno 810
-Memory  | 8/12 GB, LPDDR5
-Storage | 128/256 GB, UFS 2.2
-Shipped Android Version | 15
-Battery | Li-ion 5000 mAh, non-removable
-Display | 1080 x 2392 pixels, 6.77 inches (~387 ppi density)
-Camera  | 50 MP wide, 50 MP telephoto / periscope telephoto², 8 MP ultrawide, 32¹ / 50² MP front
+Memory  | 6/8/12 GB, LPDDR4x
+Storage | 128/256 GB, UFS 3.1
+Shipped Android Version | 16
+Battery | Li-ion 5400 mAh(India) and 5000 mAh(Global), non-removable
+Display | 1224 × 2720 pixels, 6.78 inches (~440 ppi)
+Camera  | 50 MP wide, 50 MP periscope telephoto (3.5× optical zoom), 8 MP ultrawide, 32 MP front
 
 ### Note
-1. Only available on the Nothing Phone (3a)
-2. Only available on the Nothing Phone (3a) Pro
+Only available on the Nothing Phone (4a)
 
 ## Device picture
 
-![Nothing Phone (3a) / Nothing Phone (3a) Pro](https://www.notebookcheck.net/fileadmin/Notebooks/News/_nc4/Nothing-Phone-3a-series-featured.jpg)
+![Nothing Phone (4a)](https://www.notebookcheck.net/fileadmin/Notebooks/Nothing/Phone_4a/aPic_Nothing_Phone_4a-2208.jpg)
