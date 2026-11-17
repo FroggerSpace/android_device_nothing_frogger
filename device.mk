@@ -7,6 +7,7 @@
 PRODUCT_SOURCE_ROOT_DIRS += \
     -vendor/spoofer \
     -external/hardened_malloc \
+    packages/apps/ \
     -packages/apps/GmsCompat \
     -external/GmsCompatConfig \
     -packages/apps/LogViewer
