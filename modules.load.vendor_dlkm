@@ -132,6 +132,7 @@ nothing_task_info.ko
 nothing_task_meminfo.ko
 nothing_value_check.ko
 nt_display_notifier.ko
+ois_vdd_ctrl.ko
 panel_event_notifier.ko
 pci-msm-drv.ko
 pcie-pdc.ko
