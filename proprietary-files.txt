@@ -703,6 +703,7 @@ vendor/lib64/hw/camera.qcom.milos.so
 vendor/lib64/hw/camera.qcom.so
 vendor/lib64/hw/com.qti.chi.offline.so
 vendor/lib64/hw/com.qti.chi.override.so;DISABLE_DEPS
+vendor/lib64/hw/libproviderextension.so
 vendor/lib64/libQnnHtp.so
 vendor/lib64/libQnnHtpV73Stub.so
 vendor/lib64/libQnnSystem.so
