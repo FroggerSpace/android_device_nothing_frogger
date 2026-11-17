@@ -9,6 +9,9 @@
 # Fingerprint
 /dev/goodix_fp    0660    system    system
 
+# Camera
+/dev/nt_cam_dev    0660    cameraserver    camera
+
 # Lights
 /dev/led_strips   0664   system   system
 
