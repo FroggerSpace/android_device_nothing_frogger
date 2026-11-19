@@ -212,11 +212,6 @@ PRODUCT_REQUIRES_INSECURE_EXECMEM_FOR_SWIFTSHADER := true
 PRODUCT_PACKAGES += \
     vulkan.pastel
 
-# Glyph
-PRODUCT_PACKAGES += \
-    ParanoidGlyphPhone3a \
-    GlyphAdapter
-
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0-service \
@@ -442,9 +437,7 @@ PRODUCT_SOONG_NAMESPACES += \
     hardware/google/pixel/power-libperfmgr \
     hardware/lineage/interfaces/power-libperfmgr \
     hardware/qcom-caf/common/libqti-perfd-client \
-    kernel/nothing/sm7635 \
-    packages/apps/ParanoidGlyph \
-    packages/apps/GlyphAdapter
+    kernel/nothing/sm7635
 
 # Storage
 PRODUCT_CHARACTERISTICS := nosdcard
