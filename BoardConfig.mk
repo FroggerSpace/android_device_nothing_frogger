@@ -115,7 +115,6 @@ BOARD_KERNEL_CMDLINE := \
     firmware_class.path=/vendor/firmware,/vendor/firmware_mnt/image \
     log_buf_len=1M \
     nosoftlockup \
-    androidboot.selinux=permissive \
     qcom_geni_serial.con_enabled=0
     
 BOARD_BOOTCONFIG := \
@@ -123,7 +122,6 @@ BOARD_BOOTCONFIG := \
     androidboot.hardware=qcom \
     androidboot.load_modules_parallel=true \
     androidboot.memcg=1 \
-    androidboot.selinux=permissive \
     androidboot.usbcontroller=a600000.dwc3
 
 BOARD_KERNEL_BASE := 0x00000000
