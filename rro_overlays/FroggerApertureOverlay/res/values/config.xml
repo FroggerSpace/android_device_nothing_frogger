@@ -6,4 +6,18 @@
 <resources>
     <!-- Enable auxiliary cameras selector. -->
     <bool name="config_enableAuxCameras">true</bool>
+
+    <!-- Do not ignore logical auxiliary cameras. -->
+    <bool name="config_ignoreLogicalAuxCameras">false</bool>
+
+    <!-- Logical camera zoom ratios: camera ID, display ratio, exact ratio. -->
+    <string-array name="config_logicalZoomRatios">
+        <item>0</item>
+        <item>0.6</item>
+        <item>0.625</item>
+
+        <item>0</item>
+        <item>3.5</item>
+        <item>3.5</item>
+    </string-array>
 </resources>
