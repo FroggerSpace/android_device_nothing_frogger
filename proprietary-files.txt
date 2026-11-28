@@ -180,6 +180,43 @@ vendor/lib64/soundfx/libquasar.so
 vendor/lib64/soundfx/libshoebox.so
 vendor/lib64/vendor.qti.voiceprint@1.0.so
 
+# Audio - OOS
+vendor/bin/audioadsprpcd
+vendor/etc/init/vendor.qti.audio-adsprpc-service.rc
+vendor/etc/vintf/manifest/manifest_non_qmaa.xml
+vendor/lib64/hw/audio.primary.volcano.so
+vendor/lib64/lib_bt_aptx.so
+vendor/lib64/lib_bt_ble.so
+vendor/lib64/lib_bt_bundle.so
+vendor/lib64/libagm.so
+vendor/lib64/libagm_compress_plugin.so
+vendor/lib64/libagm_mixer_plugin.so
+vendor/lib64/libagm_pcm_plugin.so
+vendor/lib64/libagmclient.so
+vendor/lib64/libar-acdb.so
+vendor/lib64/libar-gpr.so
+vendor/lib64/libar-gsl.so
+vendor/lib64/libar-pal.so
+vendor/lib64/libarmemlog.so
+vendor/lib64/libats.so
+vendor/lib64/libaudio_log_utils.so
+vendor/lib64/libaudiochargerlistener.so
+vendor/lib64/libbatterylistener.so
+vendor/lib64/libcustomva_intf.so
+vendor/lib64/libfmpal.so
+vendor/lib64/libhfp_pal.so
+vendor/lib64/libhotword_intf.so
+vendor/lib64/liblx-ar_util.so
+vendor/lib64/liblx-osal.so
+vendor/lib64/libpalclient.so
+vendor/lib64/libsndcardparser.so
+vendor/lib64/soundfx/libqcompostprocbundle.so
+vendor/lib64/soundfx/libqcomvisualizer.so
+vendor/lib64/soundfx/libqcomvoiceprocessing.so
+vendor/lib64/soundfx/libvolumelistener.so
+vendor/lib64/vendor.qti.hardware.AGMIPC@1.0-impl.so
+vendor/lib64/vendor.qti.hardware.pal@1.0-impl.so
+
 # Biometrics
 vendor/firmware/goodixfp64.b00
 vendor/firmware/goodixfp64.b01

@@ -46,14 +46,6 @@ lib_fixups: lib_fixups_user_type = {
         'vendor.qti.imsrtpservice@3.1',
         'vendor.qti.qccvndhal_aidl-V1-ndk',
     ): lib_fixup_vendor_suffix,
-    (
-        'libar-pal',
-        'libar-acdb',
-        'liblx-osal',
-        'libats',
-        'libagm',
-        'libpalclient',
-    ): lib_fixup_remove,
 }
 
 blob_fixups: blob_fixups_user_type = {
@@ -80,10 +72,6 @@ blob_fixups: blob_fixups_user_type = {
             '81 15 02 d0 21 00 71 39 01 00 00 b9 00 00 80 52 c0 03 5f d6',
             '21 00 80 52 01 00 00 b9 00 00 80 52 c0 03 5f d6 1f 20 03 d5',
         ),
-    'vendor/etc/lvacfs_params/1mic/LVACFS_Configuration.txt': blob_fixup()
-        .patch_file('audio/lvacfs_1mic_config.patch'),
-    'vendor/etc/lvacfs_params/2mic/LVACFS_Configuration.txt': blob_fixup()
-        .patch_file('audio/lvacfs_2mic_config.patch'),
     'vendor/lib64/libarcsoft_dark_vision_raw.so': blob_fixup()
         .clear_symbol_version('remote_register_buf')
         .clear_symbol_version('rpcmem_alloc')
