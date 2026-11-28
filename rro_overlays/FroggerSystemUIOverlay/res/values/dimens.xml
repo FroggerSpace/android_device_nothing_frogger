@@ -7,7 +7,7 @@
     <dimen name="physical_power_button_center_screen_location_y">1030px</dimen>
 
     <!-- The padding on the top of the statusbar (usually 0). -->
-    <dimen name="status_bar_padding_top">0px</dimen>
+    <dimen name="status_bar_padding_top">20px</dimen>
 
     <!-- The padding on the start of the status bar. -->
     <dimen name="status_bar_padding_start">60px</dimen>
